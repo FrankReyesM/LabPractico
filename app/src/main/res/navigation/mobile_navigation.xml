@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Fragment_Inicio">
+
+    <fragment
+        android:id="@+id/Fragment_Inicio"
+        android:name="franklin.reyes.myapplication.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/Fragment_Perfil"
+        android:name="franklin.reyes.myapplication.ui.dashboard.DashboardFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/fragmen_Contactanos"
+        android:name="franklin.reyes.myapplication.Fragmen_Contactanos"
+        android:label="Contactanos"
+        tools:layout="@layout/fragment_fragmen__contactanos" />
+    <fragment
+        android:id="@+id/fragment_Informacion"
+        android:name="franklin.reyes.myapplication.Fragment_Informacion"
+        android:label="Información"
+        tools:layout="@layout/fragment__informacion" />
+</navigation>
